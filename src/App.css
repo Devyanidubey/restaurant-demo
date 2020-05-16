@@ -1,0 +1,161 @@
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.inner-wrapper {
+  white-space: nowrap;
+  display: inline;
+  position: relative;
+  height: 18.5rem;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 0.6rem;
+}
+.innerSec {
+  border-radius: inherit;
+}
+.inner-container {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.restro {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  opacity: 0;
+  will-change: opacity;
+  background: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+  background-repeat: no-repeat;
+  transition: opacity 0.25s ease-out 0s;
+  border-radius: inherit;
+  animation: 1.5s linear 0s infinite normal forwards running jCOzbu;
+}
+.inner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  opacity: 1;
+  will-change: transform, opacity;
+  border-radius: inherit;
+  transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+.inner-restro-sec {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+  background: linear-gradient(305.27deg, rgba(0, 0, 0, 0.7) 0.19%, rgba(0, 0, 0, 0) 54.37%);
+}
+.agg-rating {
+  position: absolute;
+  display: flex;
+  bottom: 1.2rem;
+  right: 1.2rem;
+}
+.agg-rating-background {
+  background-color: rgb(154, 205, 50);
+  color: white;
+  font-size: 2rem;
+  border-radius: 6px;
+  padding: 0.1rem 0.9rem;
+}
+.restro-name {
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0.5rem 0px 1rem;
+}
+.restro-text {
+  white-space: nowrap;
+  display: inline;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: rgb(28, 28, 28);
+  font-weight: 500;
+  text-decoration: none;
+}
+.inner-restro-section {
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.inner-wrapper-text {
+  white-space: nowrap;
+  display: inline;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  text-decoration: none;
+}
+.inner-restro-section {
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.inner-wrapper-text {
+  white-space: nowrap;
+  display: inline;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  text-decoration: none;
+}
+.dANGcP {
+  display: inline;
+  white-space: nowrap;
+}
+.inner-wrapper-text {
+  white-space: nowrap;
+  display: inline;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  text-decoration: none;
+}
+.dANGcP {
+  display: inline;
+  white-space: nowrap;
+}
+.inner-wrapper-text {
+  white-space: nowrap;
+  display: inline;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  text-decoration: none;
+}
+.inner-wrapper-text {
+  white-space: nowrap;
+  display: inline;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  text-decoration: none;
+}
+.searchBox input, .sort select, .filter select{
+  border: 1px solid green;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.searchBox, .sort, .filter{
+  margin: 10px 0px;
+}
+.searchBox label, .sort label, .filter label{
+  margin-right: 5px;
+    font-weight: bold;
+}
